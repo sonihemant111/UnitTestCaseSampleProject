@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +20,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         // Master Branch
         return true 
+    }
+    
+    // Method to confiugure App center
+    func confiqureAppCenter() {
+        AppCenter.configure(withAppSecret: "636520a3-bf86-4a31-91d8-0bb8a82fea38")
+        if AppCenter.isConfigured {
+            AppCenter.startService(Analytics.self)
+            AppCenter.startService(Crashes.self)
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
