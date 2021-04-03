@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // Master Branch
+        confiqureAppCenter()
         return true 
     }
     
@@ -28,6 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if AppCenter.isConfigured {
             AppCenter.startService(Analytics.self)
             AppCenter.startService(Crashes.self)
+            // UnComment below line of code to remove to generate crash
+            //Crashes.generateTestCrash()
         }
     }
 

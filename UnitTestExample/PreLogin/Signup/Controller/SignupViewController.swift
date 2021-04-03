@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterAnalytics
 
 class SignupViewController: UIViewController {
 
@@ -15,6 +17,8 @@ class SignupViewController: UIViewController {
         if let view = self.view as? SignupView {
             view.delegate = self
             view.setAccessibilityIdentifier()
+            // log an event "SignupViewController loaded sucessfully"
+            Analytics.trackEvent("SignupViewController loaded sucessfully")
         }
     }
 }
