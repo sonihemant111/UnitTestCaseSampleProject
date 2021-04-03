@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // Method to confiugure App center
     func confiqureAppCenter() {
-        AppCenter.configure(withAppSecret: "636520a3-bf86-4a31-91d8-0bb8a82fea38")
+        AppCenter.configure(withAppSecret: "20dccdff-8e37-4049-9280-09396527828f")
         if AppCenter.isConfigured {
             AppCenter.startService(Analytics.self)
             AppCenter.startService(Crashes.self)
