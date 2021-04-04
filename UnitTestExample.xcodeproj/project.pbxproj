@@ -347,7 +347,6 @@
 				41ABF0E525FF228C003550D7 /* Sources */,
 				41ABF0E625FF228C003550D7 /* Frameworks */,
 				41ABF0E725FF228C003550D7 /* Resources */,
-				4632624E6EA922E90644FF22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -483,23 +482,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnitTestExample-UnitTestExampleUITests/Pods-UnitTestExample-UnitTestExampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4632624E6EA922E90644FF22 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UnitTestExample/Pods-UnitTestExample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UnitTestExample/Pods-UnitTestExample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnitTestExample/Pods-UnitTestExample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		57CA80B2DF611F2FD7887659 /* [CP] Check Pods Manifest.lock */ = {
