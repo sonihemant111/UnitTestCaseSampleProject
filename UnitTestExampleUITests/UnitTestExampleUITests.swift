@@ -31,6 +31,8 @@ class UnitTestExampleUITests: XCTestCase {
         passwordTextField = app.textFields["passwordTextField"]
         confirmPasswordTextField = app.textFields["confirmPasswordTextField"]
         submitButton = app.buttons["submitButton"]
+        
+        try super.setUpWithError()
     }
     
     override func tearDownWithError() throws {
@@ -40,6 +42,7 @@ class UnitTestExampleUITests: XCTestCase {
         passwordTextField = nil
         confirmPasswordTextField = nil
         submitButton = nil
+        try super.tearDownWithError()
     }
     
     func testSignupView_WhenViewLoaded_RequiredElementsAreEnabled() {
