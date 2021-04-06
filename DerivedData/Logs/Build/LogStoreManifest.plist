@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3E2D1449-49C7-4D79-9A7B-776398D6C04A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3E2D1449-49C7-4D79-9A7B-776398D6C04A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UnitTestExample Workspace</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UnitTestExample</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing workspace UnitTestExample with scheme UnitTestExample</string>
+			<key>timeStartedRecording</key>
+			<real>639210322.52049398</real>
+			<key>timeStoppedRecording</key>
+			<real>639210324.37491405</real>
+			<key>title</key>
+			<string>Testing workspace UnitTestExample with scheme UnitTestExample</string>
+			<key>uniqueIdentifier</key>
+			<string>3E2D1449-49C7-4D79-9A7B-776398D6C04A</string>
+		</dict>
+		<key>4C31753C-2F7A-4720-882E-749BE54DB927</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4C31753C-2F7A-4720-882E-749BE54DB927.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UnitTestExample Workspace</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UnitTestExample</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing workspace UnitTestExample with scheme UnitTestExample</string>
+			<key>timeStartedRecording</key>
+			<real>639210333.29629099</real>
+			<key>timeStoppedRecording</key>
+			<real>639210334.15049601</real>
+			<key>title</key>
+			<string>Testing workspace UnitTestExample with scheme UnitTestExample</string>
+			<key>uniqueIdentifier</key>
+			<string>4C31753C-2F7A-4720-882E-749BE54DB927</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
