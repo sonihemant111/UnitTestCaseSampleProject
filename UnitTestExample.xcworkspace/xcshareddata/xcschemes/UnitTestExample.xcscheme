@@ -54,6 +54,12 @@
             reference = "container:UnitTestExample.xctestplan"
             default = "YES">
          </TestPlanReference>
+         <TestPlanReference
+            reference = "container:UnitTestExampleTests/TestPlanUnitTestCase.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:TestPlan-UITest.xctestplan">
+         </TestPlanReference>
       </TestPlans>
       <Testables>
          <TestableReference
