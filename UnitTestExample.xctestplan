@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "D9D48453-B3BB-4D6C-8CCD-1FC4AFA498F3",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "mallocScribbleEnabled" : true,
+    "nsZombieEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:UnitTestExample.xcodeproj",
+      "identifier" : "41ABF0E825FF228C003550D7",
+      "name" : "UnitTestExample"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:UnitTestExample.xcodeproj",
+        "identifier" : "41ABF0FC25FF229E003550D7",
+        "name" : "UnitTestExampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:UnitTestExample.xcodeproj",
+        "identifier" : "41ABF10725FF229E003550D7",
+        "name" : "UnitTestExampleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

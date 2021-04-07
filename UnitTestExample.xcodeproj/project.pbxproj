@@ -107,6 +107,9 @@
 		7270593F013F7FDB423539B2 /* Pods-UnitTestExample-UnitTestExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestExample-UnitTestExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestExample-UnitTestExampleUITests/Pods-UnitTestExample-UnitTestExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DE1634539330CC1625D7700 /* Pods-UnitTestExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestExampleTests.release.xcconfig"; path = "Target Support Files/Pods-UnitTestExampleTests/Pods-UnitTestExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		7E847942048C806F864B8590 /* Pods-UnitTestExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestExample.release.xcconfig"; path = "Target Support Files/Pods-UnitTestExample/Pods-UnitTestExample.release.xcconfig"; sourceTree = "<group>"; };
+		B94A2F67261D525D0002EE94 /* TestPlan-UITest.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TestPlan-UITest.xctestplan"; sourceTree = SOURCE_ROOT; };
+		B94A2F6B261D53070002EE94 /* UnitTestExample.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTestExample.xctestplan; sourceTree = "<group>"; };
+		B94A2F6F261D53510002EE94 /* TestPlanUnitTestCase.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlanUnitTestCase.xctestplan; sourceTree = "<group>"; };
 		D8F607E080A148BA74EC2C93 /* Pods_UnitTestExample_UnitTestExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestExample_UnitTestExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55B3D817B6890EAFEE61768 /* Pods-UnitTestExample-UnitTestExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestExample-UnitTestExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-UnitTestExample-UnitTestExampleUITests/Pods-UnitTestExample-UnitTestExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +155,7 @@
 		41ABF0E025FF228B003550D7 = {
 			isa = PBXGroup;
 			children = (
+				B94A2F6B261D53070002EE94 /* UnitTestExample.xctestplan */,
 				41ABF0EB25FF228C003550D7 /* UnitTestExample */,
 				41ABF10025FF229E003550D7 /* UnitTestExampleTests */,
 				41ABF10B25FF229E003550D7 /* UnitTestExampleUITests */,
@@ -194,6 +198,7 @@
 				41ABF1522601DB64003550D7 /* SignupWebServiceTests.swift */,
 				41ABF154260338A5003550D7 /* SignupFormViewModelTests.swift */,
 				41ABF15626048161003550D7 /* SignupViewTests.swift */,
+				B94A2F6F261D53510002EE94 /* TestPlanUnitTestCase.xctestplan */,
 			);
 			path = UnitTestExampleTests;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 		41ABF10B25FF229E003550D7 /* UnitTestExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
+				B94A2F67261D525D0002EE94 /* TestPlan-UITest.xctestplan */,
 				41ABF10C25FF229E003550D7 /* UnitTestExampleUITests.swift */,
 				41ABF10E25FF229E003550D7 /* Info.plist */,
 			);

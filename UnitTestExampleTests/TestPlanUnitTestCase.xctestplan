@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "E743C54E-E8D2-47FB-A1E1-DD63DF06EFAF",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:UnitTestExample.xcodeproj",
+        "identifier" : "41ABF0FC25FF229E003550D7",
+        "name" : "UnitTestExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}
